@@ -3,7 +3,7 @@
 </p>
 
 ## 🖥️ Projeto
-Ambientes únicos para você.
+Resposividade.
 
 ## ✍️ Aprendizagem
 * Introdução à responsividade
