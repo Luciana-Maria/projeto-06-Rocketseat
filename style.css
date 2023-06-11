@@ -30,7 +30,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 
-main p:first-child{
+main p:first-child{ /*pega o primeiro P*/
     color: #7158ef;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ main p:first-child{
     margin-bottom: 1.7rem;
 }
 
-h1 + p{
+h1 + p{ /* pega o p anterior ao h1*/
     color: rgba(10, 0, 57, 0.64);
     line-height: 3.2rem;
     margin-bottom: 3.2rem;
@@ -47,7 +47,7 @@ a{
     color: #090039;
     text-decoration: none;
 }
-a:hover{
+a:hover{/* para mudar*/
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ ul{
     
     margin-top: 7.2rem;
 }
-
+/*lista 1 2 3*/
 ul li{
 font-weight: 700;
 font-size: 2.4rem;
@@ -74,11 +74,11 @@ ul li span{
     font-weight: 800;
     font-size: 7.2rem;
     line-height: 8.0rem;
-    letter-spacing: -2px;
+    letter-spacing: -2px; /*quando a unidade for pequena manter fixa px*/
     color: #090039;
 }
 
-/*media queries */
+/*media queries  faz o ajuste da tela*/
 
 @media (min-width: 700px){
 body {
@@ -86,13 +86,17 @@ body {
 }
 main {
     max-width: 1020px;
+    display: flex;
+    gap: 10rem;
 }
-main > div {
-    max-width: 484px;
+
+main > div {/*pega a div*/
+    max-width: 484px; /*lagura máxima*/
 }
  ul li {
     gap: 5.3rem;
     max-width: 450px;
     align-items: center;
  }
+ 
 }
